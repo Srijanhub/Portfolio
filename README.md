@@ -15,6 +15,7 @@ A modern, fast, and fully responsive personal portfolio website built with seman
 - **Author**: Srijan Halder (DOB: 20/12/2007)
 - **Institution**: Bosscoder School of Technology (First Year CS, Batch '26)
 - **Contact**: [onlinesrijanhalder@gmail.com](mailto:onlinesrijanhalder@gmail.com)
+- **LinkedIn**: [linkedin.com/in/srijan-halder-873537428](https://www.linkedin.com/in/srijan-halder-873537428)
 
 ---
 
