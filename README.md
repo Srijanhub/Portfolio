@@ -12,7 +12,7 @@ A modern, fast, and fully responsive personal portfolio website built with seman
 - **Live Repository**: [github.com/Srijanhub/Portfolio](https://github.com/Srijanhub/Portfolio)
 - **Live Demo**: [srijanhub.github.io/Portfolio](https://srijanhub.github.io/Portfolio/)
 - **GitHub Profile**: [github.com/Srijanhub](https://github.com/Srijanhub)
-- **Author**: Srijan Halder (DOB: 20/12/2007)
+- **Author**: Srijan Halder
 - **Institution**: Bosscoder School of Technology (First Year CS, Batch '26)
 - **Contact**: [onlinesrijanhalder@gmail.com](mailto:onlinesrijanhalder@gmail.com)
 - **LinkedIn**: [linkedin.com/in/srijan-halder-873537428](https://www.linkedin.com/in/srijan-halder-873537428)
@@ -24,7 +24,7 @@ A modern, fast, and fully responsive personal portfolio website built with seman
 | # | Feature | Implementation Details |
 |---|---|---|
 | **1** | **Home Section** | Hero introduction with prominent name, developer avatar card, welcome message, Bosscoder badge, and primary action buttons. |
-| **2** | **About Me Section** | Authentic biography, date of birth (20/12/2007), core engineering goals, and focus pillars (AI guardrails, modern web stack, C++ & DSA). |
+| **2** | **About Me Section** | Authentic biography, core engineering goals, and focus pillars (AI guardrails, modern web stack, C++ & DSA). |
 | **3** | **Education Section** | Timeline cards showing Bosscoder School of Technology (B.Tech 1st Year), Class XII Science (92%), and Class X distinction. |
 | **4** | **Skills Section** | Visual cards categorized into Web Technologies, Core CS & Backend, Developer Tools, and Non-Technical skills with animated progress bars. |
 | **5** | **Projects Section** | Exclusively features authentic repositories from [@Srijanhub](https://github.com/Srijanhub): **Mandate** (PayPal AI Spending Firewall), **ListingForge** (E-Commerce Studio), **TouchGrass** (Outing Engine), and **MoneyM8** (Expense PWA), with tags, custom SVG previews, and an interactive **View Details Modal**. |
@@ -96,7 +96,6 @@ No external build tools, package managers, or dependencies are required.
 ## 👨‍💻 Submission Details
 
 - **Student Name**: Srijan Halder
-- **DOB**: 20 December 2007
 - **Institution**: Bosscoder School of Technology
 - **Course**: First Year Computer Science & Technology
 - **Assignment**: Web Development Project — Personal Portfolio Website
