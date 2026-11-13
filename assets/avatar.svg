@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d0b5"/>
+      <stop offset="100%" stop-color="#e0ac82"/>
+    </linearGradient>
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#27272a"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle with Soft Glow -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle code grid pattern -->
+  <g opacity="0.15" stroke="#a5b4fc" stroke-width="1.5">
+    <line x1="50" y1="90" x2="130" y2="90"/>
+    <line x1="50" y1="110" x2="180" y2="110"/>
+    <line x1="50" y1="130" x2="110" y2="130"/>
+    <line x1="260" y1="280" x2="350" y2="280"/>
+    <line x1="280" y1="300" x2="340" y2="300"/>
+    <circle cx="90" cy="270" r="16" fill="none"/>
+    <rect x="290" y="80" width="30" height="30" rx="8" fill="none"/>
+  </g>
+
+  <!-- Developer Person -->
+  <!-- Shoulders / Hoodie -->
+  <path d="M90 395 C90 320, 140 300, 200 300 C260 300, 310 320, 310 395 Z" fill="url(#hoodieGrad)"/>
+  <!-- Hoodie collar & drawstring -->
+  <path d="M165 300 C180 335, 220 335, 235 300 Z" fill="#3f3f46"/>
+  <path d="M185 325 L180 375" stroke="#a1a1aa" stroke-width="3" stroke-linecap="round"/>
+  <path d="M215 325 L220 375" stroke="#a1a1aa" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="180" cy="376" r="3" fill="#e4e4e7"/>
+  <circle cx="220" cy="376" r="3" fill="#e4e4e7"/>
+  
+  <!-- Neck -->
+  <rect x="178" y="240" width="44" height="65" rx="10" fill="#dfa579"/>
+  
+  <!-- Head / Face -->
+  <ellipse cx="200" cy="195" rx="55" ry="68" fill="url(#skinGrad)"/>
+  
+  <!-- Hair (modern textured side-part / styled hair) -->
+  <path d="M142 185 C138 135, 170 115, 205 115 C245 115, 260 135, 260 180 C252 170, 240 165, 225 165 C200 165, 185 160, 165 170 C155 175, 148 180, 142 185 Z" fill="#1c1917"/>
+  <path d="M142 170 C130 185, 138 215, 144 220 C146 205, 145 190, 150 178 Z" fill="#1c1917"/>
+  <path d="M258 170 C270 185, 262 215, 256 220 C254 205, 255 190, 250 178 Z" fill="#1c1917"/>
+  
+  <!-- Ears -->
+  <ellipse cx="143" cy="200" rx="9" ry="14" fill="#e4a77b"/>
+  <ellipse cx="257" cy="200" rx="9" ry="14" fill="#e4a77b"/>
+  
+  <!-- Eyebrows -->
+  <path d="M165 175 Q178 170 188 174" stroke="#1c1917" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M212 174 Q222 170 235 175" stroke="#1c1917" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Eyes -->
+  <circle cx="178" cy="190" r="6" fill="#1e293b"/>
+  <circle cx="222" cy="190" r="6" fill="#1e293b"/>
+  <circle cx="176" cy="188" r="2" fill="#ffffff"/>
+  <circle cx="220" cy="188" r="2" fill="#ffffff"/>
+  
+  <!-- Glasses (sleek modern rectangle-round frames) -->
+  <rect x="160" y="177" width="34" height="25" rx="8" fill="none" stroke="#6366f1" stroke-width="3"/>
+  <rect x="206" y="177" width="34" height="25" rx="8" fill="none" stroke="#6366f1" stroke-width="3"/>
+  <line x1="194" y1="188" x2="206" y2="188" stroke="#6366f1" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="160" y1="185" x2="148" y2="190" stroke="#6366f1" stroke-width="2.5"/>
+  <line x1="240" y1="185" x2="252" y2="190" stroke="#6366f1" stroke-width="2.5"/>
+  
+  <!-- Nose -->
+  <path d="M198 194 Q202 208 205 210 Q196 213 194 211" stroke="#cc8d61" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Friendly Confident Smile -->
+  <path d="M185 228 Q200 242 215 228" stroke="#991b1b" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Floating Tech Badge left: </> -->
+  <g transform="translate(45, 270)">
+    <rect width="68" height="42" rx="10" fill="#111827" stroke="#4f46e5" stroke-width="2"/>
+    <text x="34" y="27" font-family="monospace" font-size="18" font-weight="bold" fill="#38bdf8" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+  
+  <!-- Floating Tech Badge right: BST -->
+  <g transform="translate(285, 270)">
+    <rect width="70" height="42" rx="10" fill="#111827" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="35" y="27" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#c084fc" text-anchor="middle">BST'26</text>
+  </g>
+</svg>

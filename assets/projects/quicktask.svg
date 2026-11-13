@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <defs>
+    <linearGradient id="p3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#27272a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#p3Grad)"/>
+  <rect x="0" y="0" width="600" height="44" rx="16" fill="#27272a"/>
+  <rect x="0" y="24" width="600" height="20" fill="#27272a"/>
+  <circle cx="30" cy="22" r="6" fill="#ef4444"/>
+  <circle cx="50" cy="22" r="6" fill="#f59e0b"/>
+  <circle cx="70" cy="22" r="6" fill="#10b981"/>
+  <text x="300" y="27" fill="#a1a1aa" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">QuickTask · Daily Productivity Planner</text>
+
+  <!-- Input Field -->
+  <g transform="translate(40, 65)">
+    <rect width="520" height="44" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="20" y="27" fill="#71717a" font-family="sans-serif" font-size="13">What needs to get done today? (e.g. Practice 3 LeetCode problems)</text>
+    <rect x="440" y="6" width="70" height="32" rx="6" fill="#8b5cf6"/>
+    <text x="475" y="26" fill="#fff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">+ Add</text>
+  </g>
+
+  <!-- Tasks List -->
+  <g transform="translate(40, 130)">
+    <!-- Task 1 (Done) -->
+    <g transform="translate(0, 0)">
+      <rect width="520" height="52" rx="8" fill="#1c1917" stroke="#292524"/>
+      <circle cx="30" cy="26" r="11" fill="#10b981"/>
+      <path d="M25 26 L29 30 L35 22" stroke="#fff" stroke-width="2.5" fill="none"/>
+      <text x="55" y="31" fill="#78716c" font-family="sans-serif" font-size="13" text-decoration="line-through">Revise Linked List reversals in C++</text>
+      <rect x="420" y="14" width="85" height="24" rx="12" fill="#292524"/>
+      <text x="462" y="30" fill="#a8a29e" font-family="sans-serif" font-size="11" text-anchor="middle">DSA · Done</text>
+    </g>
+    <!-- Task 2 (In progress) -->
+    <g transform="translate(0, 64)">
+      <rect width="520" height="52" rx="8" fill="#1c1917" stroke="#4338ca"/>
+      <circle cx="30" cy="26" r="11" fill="none" stroke="#6366f1" stroke-width="2.5"/>
+      <text x="55" y="31" fill="#f4f4f5" font-family="sans-serif" font-size="13">Build Bosscoder Portfolio project (HTML, CSS, JS)</text>
+      <rect x="420" y="14" width="85" height="24" rx="12" fill="#312e81"/>
+      <text x="462" y="30" fill="#a5b4fc" font-family="sans-serif" font-size="11" text-anchor="middle">Web Dev</text>
+    </g>
+    <!-- Task 3 (Pending) -->
+    <g transform="translate(0, 128)">
+      <rect width="520" height="52" rx="8" fill="#1c1917" stroke="#292524"/>
+      <circle cx="30" cy="26" r="11" fill="none" stroke="#71717a" stroke-width="2.5"/>
+      <text x="55" y="31" fill="#d4d4d8" font-family="sans-serif" font-size="13">Play 3 games of 10+0 Rapid Chess</text>
+      <rect x="420" y="14" width="85" height="24" rx="12" fill="#292524"/>
+      <text x="462" y="30" fill="#a8a29e" font-family="sans-serif" font-size="11" text-anchor="middle">Hobby</text>
+    </g>
+  </g>
+</svg>
