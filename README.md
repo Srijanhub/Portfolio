@@ -16,6 +16,7 @@ A modern, fast, and fully responsive personal portfolio website built with seman
 - **Institution**: Bosscoder School of Technology (First Year CS, Batch '26)
 - **Contact**: [onlinesrijanhalder@gmail.com](mailto:onlinesrijanhalder@gmail.com)
 - **LinkedIn**: [linkedin.com/in/srijan-halder-873537428](https://www.linkedin.com/in/srijan-halder-873537428)
+- **DEV Community**: [dev.to/srijan_halder_7d1097cfad9](https://dev.to/srijan_halder_7d1097cfad9)
 
 ---
 
@@ -34,6 +35,14 @@ A modern, fast, and fully responsive personal portfolio website built with seman
 | **9** | **Dark Mode & Light Mode** | Single-click theme switcher in navbar using CSS custom properties and `localStorage` persistence. |
 | **10** | **Interactive Navigation** | Sticky frosted glass header, smooth scrolling to sections, active section highlight on scroll (Scrollspy), and a mobile hamburger drawer. |
 | **11** | **Responsive Design** | Fluid layouts optimized for mobile phones (320px+), tablets (768px), laptops (1024px), and ultra-wide desktop monitors. |
+
+---
+
+## ⚡ Currently Working On & Active Competitions
+
+- **Active Hackathon**: [The Presage SmartSpectra SDK Challenge](https://dev.to/challenges/presage-2026-11-04) (Nov 4 – Nov 22, 2026) — Building camera-based contactless physiological sensing for real-time heart rate, HRV, and respiratory signals.
+- **Published Article**: [ListingForge ⚡ — The Open-Weight AI E-Commerce Listing Studio](https://dev.to/srijan_halder_7d1097cfad9/listingforge-5600) on DEV (Hacktoberfest Challenge).
+- **Core Engineering**: Hardening [Mandate](https://github.com/Srijanhub/mandate) with PostgreSQL pgvector hybrid search and strict prompt injection defenses.
 
 ---
 
