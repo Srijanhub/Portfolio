@@ -29,7 +29,7 @@ A modern, fast, and fully responsive personal portfolio website built with seman
 | **4** | **Skills Section** | Visual cards categorized into Web Technologies, Core CS & Backend, Developer Tools, and Non-Technical skills with animated progress bars. |
 | **5** | **Projects Section** | Exclusively features authentic repositories from [@Srijanhub](https://github.com/Srijanhub): **Mandate** (PayPal AI Spending Firewall), **ListingForge** (E-Commerce Studio), **TouchGrass** (Outing Engine), and **MoneyM8** (Expense PWA), with tags, custom SVG previews, and an interactive **View Details Modal**. |
 | **6** | **Hobbies & Interests** | Personal pursuits including Competitive Chess (Chess.com Rapid), Football, Tech Blogs, Photography, and Linux CLI customization. |
-| **7** | **Achievements Section** | Cards showcasing Bosscoder CodeSprint 2026 Honor Roll, Web Dev Certification, and Inter-School Tech Expo awards. |
+| **7** | **Achievements Section** | Cards showcasing official RV University & Bosscoder Hacktoberfest Hack Day 2026 Certificate, Bosscoder CodeSprint 2026 Honor Roll, and Web Dev Credentials. |
 | **8** | **Contact Section** | Institutional and personal contact information, GitHub/LinkedIn links, and a client-side validated contact form with real-time feedback. |
 | **9** | **Dark Mode & Light Mode** | Single-click theme switcher in navbar using CSS custom properties and `localStorage` persistence. |
 | **10** | **Interactive Navigation** | Sticky frosted glass header, smooth scrolling to sections, active section highlight on scroll (Scrollspy), and a mobile hamburger drawer. |
