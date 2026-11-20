@@ -56,9 +56,9 @@ A modern, fast, and fully responsive personal portfolio website built with seman
 2. **[ListingForge](https://github.com/Srijanhub/ListingForge)** · Open-Weight AI E-Commerce Listing Studio
    - *Tech*: Node.js, Express, Ollama, Llama 3.2 Vision, Qwen2-VL, Local ONNX, Apple Silicon GPU acceleration.
    - Generates compliant listings and SEO tags for Etsy, eBay, and Shopify in <30s at $0.00 marginal cost; published on [DEV.to](https://dev.to/srijan_halder_7d1097cfad9/listingforge-5600).
-3. **ScamShield India** · Privacy-First Multilingual Fraud Detection PWA
-   - *Tech*: Next.js, FastAPI, IndicBERT v2, ONNX Runtime (CPU), LightGBM, PostgreSQL, Docker, jsQR.
-   - Real-time digital fraud detection (UPI scams, phishing URLs, QR tampering) with spoken voice warnings in 5 Indian languages (Hindi, Bengali, Marathi, Kannada, English) aligned with India's DPDP Act 2023.
+3. **DayPilot** · Native macOS Cockpit & Workspace Telemetry
+   - *Tech*: macOS / Swift, Python FastAPI, SQLite, Antigravity MCP Server, Local Window Daemon.
+   - Native macOS flight deck and telemetry hub with automated hysteresis work-mode classification (`WORK`/`STUDY`/`RELAX`/`AUTO`), live BossCoder Academy DSA curriculum tracking, open-source PR review radar, and custom MCP tool server integration.
 4. **[TouchGrass](https://github.com/Srijanhub/TouchGrass)** · Weather & Nearby Outing Activity Finder
    - *Tech*: Semantic HTML5, Vanilla JavaScript, OpenStreetMap Overpass API, Open-Meteo, Leaflet.js.
    - Zero-key, zero-dependency static web app that respects complete browser privacy.

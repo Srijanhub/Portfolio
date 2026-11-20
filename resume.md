@@ -45,17 +45,17 @@
 * Accelerated multi-modal local vision inference (Llama 3.2 Vision, Qwen2-VL) on Apple Silicon GPU/MPS via Ollama with Hugging Face router failover.
 * Implemented automated marketplace SEO auditor (Etsy 13-tag limit, eBay 80-char cutoff), profit margin/fee calculator, RFC-4180 CSV export pipeline, and a 63-point test suite; reduced seller listing time from 4 hours to 35 minutes.
 
-**ScamShield India — Privacy-First Multilingual Fraud Detection PWA** | *Next.js, FastAPI, IndicBERT v2, ONNX Runtime, LightGBM, PostgreSQL, Docker*  
-* Developed an accessible Progressive Web App detecting digital fraud (UPI scams, phishing URLs, QR tampering) with voice warnings in 5 Indian languages (Hindi, Bengali, Marathi, Kannada, English).
-* Deployed fine-tuned IndicBERT v2 on CPU via ONNX Runtime combined with LightGBM lexical classifiers and live threat feeds (URLhaus, OpenPhish) to eliminate cloud API costs.
-* Designed a zero-retention privacy architecture aligned with India’s DPDP Act 2023 with client-side in-browser QR scanning (jsQR).
+**DayPilot — Native macOS Cockpit & Workspace Telemetry** | *Swift/macOS, Python FastAPI, SQLite, Antigravity MCP Server*  
+* Architected a native macOS cockpit and workstation telemetry engine backed by a local FastAPI daemon (127.0.0.1:4000) and SQLite event store.
+* Implemented an intelligent hysteresis classification engine monitoring active window state to categorize workflow into WORK, STUDY, and RELAX modes.
+* Built custom Antigravity Model Context Protocol (MCP) server integration to expose live workstation state, BossCoder DSA progress, and GitHub PR review radars to AI agents.
 
 ---
 
 ### TECHNICAL SKILLS
 
-* **Languages**: Python, Java, JavaScript (ES6+), TypeScript, SQL, HTML5, CSS3
-* **Backend & Systems**: FastAPI, Node.js, Express, Asyncpg, SQLAlchemy, PostgreSQL, SQLite, RESTful APIs, Webhooks, Docker
+* **Languages**: Python, Java, Swift, JavaScript (ES6+), TypeScript, SQL, HTML5, CSS3
+* **Backend & Systems**: FastAPI, Node.js, Express, Asyncpg, SQLAlchemy, PostgreSQL, SQLite, RESTful APIs, Webhooks, Docker, MCP
 * **AI/ML & Edge Inference**: Ollama, ONNX Runtime, IndicBERT v2, Llama 3.2 Vision, Qwen2-VL, LightGBM, Hugging Face, Wav2Vec2
 * **Developer Tools & Security**: Git, GitHub, Linux/macOS, WAI-ARIA Accessibility, Content Security Policy (CSP), Threat Modeling, Pytest, Jest
 

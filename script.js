@@ -139,20 +139,20 @@ function initSkillBars() {
    5. REAL PROJECT DETAILS MODAL (SRIJAN'S AUTHENTIC GITHUB REPOSITORIES)
    ========================================================================== */
 const projectDetailsData = {
-  scamshield: {
-    title: 'ScamShield India 🇮🇳 — Privacy-First Multilingual Fraud Detection PWA',
-    badge: 'Edge AI & Cybersecurity PWA',
-    image: 'assets/projects/scamshield.svg',
+  daypilot: {
+    title: 'DayPilot 🛸 — Native macOS Cockpit & Workspace Telemetry',
+    badge: 'macOS System & Agent Cockpit',
+    image: 'assets/projects/daypilot.svg',
     github: 'https://github.com/Srijanhub',
-    summary: 'An accessible Progressive Web App engineered to protect citizens against digital payment fraud (UPI scams, fake refund links, phishing URLs, and QR code tampering) featuring voice warnings in 5 Indian languages (Hindi, Bengali, Marathi, Kannada, English).',
-    tech: ['Next.js', 'FastAPI', 'IndicBERT v2 (ONNX Runtime)', 'LightGBM', 'PostgreSQL', 'Docker', 'jsQR'],
+    summary: 'A native macOS cockpit and workstation flight deck with a local FastAPI daemon (127.0.0.1:4000) and SQLite telemetry engine. Features intelligent hysteresis window-activity classification, real-time BossCoder Academy DSA curriculum tracking, open-source PR radars, and native Antigravity MCP integration.',
+    tech: ['macOS / Swift', 'Python FastAPI', 'SQLite', 'Antigravity MCP Server', 'Local Window Daemon'],
     features: [
-      '5-Language Voice Alert Engine: Delivers immediate spoken warnings in Hindi, Bengali, Marathi, Kannada, and English for non-English speakers.',
-      'Edge CPU Inference: Deploys fine-tuned IndicBERT v2 on CPU via ONNX Runtime combined with LightGBM to eliminate cloud API latency and recurring costs.',
-      'Live Threat Ingestion: Continuously cross-references URLs against URLhaus and OpenPhish threat intelligence feeds.',
-      'DPDP Act 2023 Compliance: Zero-retention privacy architecture with client-side in-browser QR scanning and zero storage of sensitive user transaction text.'
+      'Intelligent Workstation Mode Engine: Dynamically classifies daily workflow into WORK, STUDY, RELAX, or AUTO using an active macOS window-tracking daemon and hysteresis classifier.',
+      'BossCoder Academy Radar: Real-time tracking of DSA in Java lectures, curriculum milestones, attendance metrics (94%+), and batch contest rankings.',
+      'Open Source PR Radar: Monitored live pull request telemetry across tier-1 open-source repositories (psf/pyperf, apache/shardingsphere, django/djangoproject.com).',
+      'Antigravity Model Context Protocol (MCP): Custom local MCP server enabling AI coding assistants to query live workstation state, focus windows, and manage modes.'
     ],
-    learnings: 'Built deep expertise in multi-lingual NLP model quantization (ONNX Runtime on CPU), voice synthesis delivery in mobile PWAs, and designing privacy-first security tools compliant with Indian data protection legislation.'
+    learnings: 'Mastered macOS daemon IPC architecture, hysteresis classification algorithms to prevent noisy mode flapping, SQLite time-series telemetry querying, and building custom local Model Context Protocol (MCP) tool servers.'
   },
 
   mandate: {

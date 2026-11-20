@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <defs>
+    <linearGradient id="dpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="100%" stop-color="#141929"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#dpGrad)"/>
+  
+  <!-- macOS Title Bar -->
+  <rect x="0" y="0" width="600" height="44" rx="16" fill="#141929"/>
+  <rect x="0" y="24" width="600" height="20" fill="#141929"/>
+  <circle cx="30" cy="22" r="6" fill="#ef4444"/>
+  <circle cx="50" cy="22" r="6" fill="#f59e0b"/>
+  <circle cx="70" cy="22" r="6" fill="#10b981"/>
+  <text x="300" y="27" fill="#818cf8" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">DayPilot 🛸 · Native macOS Cockpit &amp; Workspace Telemetry</text>
+
+  <!-- Workstation Mode Bar -->
+  <g transform="translate(35, 60)">
+    <rect width="530" height="40" rx="8" fill="#1c2338"/>
+    <!-- WORK (Active) -->
+    <rect x="10" y="7" width="90" height="26" rx="6" fill="#4f46e5"/>
+    <text x="55" y="24" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">⚡ WORK</text>
+    <!-- STUDY -->
+    <rect x="110" y="7" width="90" height="26" rx="6" fill="#0f1424"/>
+    <text x="155" y="24" fill="#8b96b3" font-family="sans-serif" font-size="11" text-anchor="middle">📚 STUDY</text>
+    <!-- RELAX -->
+    <rect x="210" y="7" width="90" height="26" rx="6" fill="#0f1424"/>
+    <text x="255" y="24" fill="#8b96b3" font-family="sans-serif" font-size="11" text-anchor="middle">☕ RELAX</text>
+    <!-- AUTO indicator -->
+    <rect x="420" y="7" width="100" height="26" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+    <text x="470" y="24" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Mode: AUTO ✓</text>
+  </g>
+
+  <!-- Telemetry Dashboard Grid -->
+  <g transform="translate(35, 115)">
+    <!-- Card 1: BossCoder Progress -->
+    <rect x="0" y="0" width="255" height="115" rx="10" fill="#1c2338" stroke="#2e3a55" stroke-width="1.5"/>
+    <text x="18" y="28" fill="#818cf8" font-family="sans-serif" font-size="11" font-weight="bold">BOSSCODER ACADEMY RADAR</text>
+    <text x="18" y="55" fill="#e8edf8" font-family="sans-serif" font-size="15" font-weight="bold">DSA &amp; Java Engineering</text>
+    <text x="18" y="78" fill="#8b96b3" font-family="sans-serif" font-size="11">Instructor: Ankur Raj · Batch Contest #8</text>
+    <rect x="18" y="90" width="140" height="16" rx="4" fill="#0f1424"/>
+    <text x="88" y="102" fill="#10b981" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Attendance: 94.2%</text>
+
+    <!-- Card 2: GitHub PRs Radar -->
+    <rect x="275" y="0" width="255" height="115" rx="10" fill="#1c2338" stroke="#2e3a55" stroke-width="1.5"/>
+    <text x="293" y="28" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="bold">LIVE GITHUB PR REVIEWS (@Srijanhub)</text>
+    <text x="293" y="54" fill="#e8edf8" font-family="monospace" font-size="11">● psf/pyperf #128 · JIT Runner</text>
+    <text x="293" y="74" fill="#e8edf8" font-family="monospace" font-size="11">● shardingsphere #40421 · SQL Parser</text>
+    <text x="293" y="94" fill="#e8edf8" font-family="monospace" font-size="11">● djangoproject #2930 · WAI-ARIA</text>
+  </g>
+
+  <!-- Bottom Architecture Metrics -->
+  <g transform="translate(35, 245)">
+    <rect width="530" height="85" rx="10" fill="#0a0e1a" stroke="#242b42" stroke-width="1.5"/>
+    <text x="20" y="26" fill="#38bdf8" font-family="monospace" font-size="11">daemon &gt; http://127.0.0.1:4000/api/context (FastAPI + SQLite Engine)</text>
+    <line x1="20" y1="36" x2="510" y2="36" stroke="#1c2338"/>
+    <text x="20" y="56" fill="#34d399" font-family="monospace" font-size="11">✓ Native Antigravity MCP Integration · Instant Agent Context Feeding</text>
+    <text x="20" y="74" fill="#9ca3af" font-family="monospace" font-size="11">✓ Hysteresis-driven window classification &amp; priority email digests</text>
+  </g>
+</svg>
