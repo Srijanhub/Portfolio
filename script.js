@@ -139,6 +139,22 @@ function initSkillBars() {
    5. REAL PROJECT DETAILS MODAL (SRIJAN'S AUTHENTIC GITHUB REPOSITORIES)
    ========================================================================== */
 const projectDetailsData = {
+  scamshield: {
+    title: 'ScamShield India 🇮🇳 — Privacy-First Multilingual Fraud Detection PWA',
+    badge: 'Edge AI & Cybersecurity PWA',
+    image: 'assets/projects/scamshield.svg',
+    github: 'https://github.com/Srijanhub',
+    summary: 'An accessible Progressive Web App engineered to protect citizens against digital payment fraud (UPI scams, fake refund links, phishing URLs, and QR code tampering) featuring voice warnings in 5 Indian languages (Hindi, Bengali, Marathi, Kannada, English).',
+    tech: ['Next.js', 'FastAPI', 'IndicBERT v2 (ONNX Runtime)', 'LightGBM', 'PostgreSQL', 'Docker', 'jsQR'],
+    features: [
+      '5-Language Voice Alert Engine: Delivers immediate spoken warnings in Hindi, Bengali, Marathi, Kannada, and English for non-English speakers.',
+      'Edge CPU Inference: Deploys fine-tuned IndicBERT v2 on CPU via ONNX Runtime combined with LightGBM to eliminate cloud API latency and recurring costs.',
+      'Live Threat Ingestion: Continuously cross-references URLs against URLhaus and OpenPhish threat intelligence feeds.',
+      'DPDP Act 2023 Compliance: Zero-retention privacy architecture with client-side in-browser QR scanning and zero storage of sensitive user transaction text.'
+    ],
+    learnings: 'Built deep expertise in multi-lingual NLP model quantization (ONNX Runtime on CPU), voice synthesis delivery in mobile PWAs, and designing privacy-first security tools compliant with Indian data protection legislation.'
+  },
+
   mandate: {
     title: 'Mandate — Autonomous AI Agent Spending Firewall for PayPal',
     badge: 'Security & FinTech Engine',

@@ -10,11 +10,13 @@ A modern, fast, and fully responsive personal portfolio website built with seman
 ## 🌟 Live Demo & Profiles
 
 - **Live Repository**: [github.com/Srijanhub/Portfolio](https://github.com/Srijanhub/Portfolio)
-- **Live Demo**: [srijanhub.github.io/Portfolio](https://srijanhub.github.io/Portfolio/)
+- **Live Website**: [srijanhub.github.io/Portfolio](https://srijanhub.github.io/Portfolio/)
+- **Full Resume**: [resume.html](resume.html) • [resume.md](resume.md)
 - **GitHub Profile**: [github.com/Srijanhub](https://github.com/Srijanhub)
-- **Author**: Srijan Halder
-- **Institution**: Bosscoder School of Technology (First Year CS, Batch '26)
-- **Contact**: [onlinesrijanhalder@gmail.com](mailto:onlinesrijanhalder@gmail.com)
+- **Author**: Srijan Halder (Top 100 ACE Batch, BST)
+- **Location**: Bengaluru, Karnataka, India
+- **Phone**: [+91 79807 41397](tel:+917980741397)
+- **Email**: [onlinesrijanhalder@gmail.com](mailto:onlinesrijanhalder@gmail.com)
 - **LinkedIn**: [linkedin.com/in/srijan-halder-873537428](https://www.linkedin.com/in/srijan-halder-873537428)
 - **DEV Community**: [dev.to/srijan_halder_7d1097cfad9](https://dev.to/srijan_halder_7d1097cfad9)
 
@@ -46,20 +48,32 @@ A modern, fast, and fully responsive personal portfolio website built with seman
 
 ---
 
-## 🛠️ Featured GitHub Projects
+## 🛠️ Featured Systems & Projects
 
 1. **[Mandate](https://github.com/Srijanhub/mandate)** · Autonomous AI Agent Spending Firewall for PayPal
-   - *Tech*: Python 3.11+, FastAPI, Pydantic v2, PayPal Orders v2, Cryptographic SHA-256 Intent Receipts.
-   - Deterministic policy layer, hidden HTML prompt-injection sanitization, fail-closed evaluation.
+   - *Tech*: Python 3.11+, FastAPI, PostgreSQL, Asyncpg, Pydantic v2, PayPal Orders v2, Cryptographic SHA-256 Intent Receipts.
+   - Deterministic policy layer, C1–C8 checkpoints, pre-LLM HTML/CSS prompt-injection sanitization, 13-scenario Red-Team Demo Lab (R1–R13).
 2. **[ListingForge](https://github.com/Srijanhub/ListingForge)** · Open-Weight AI E-Commerce Listing Studio
-   - *Tech*: JavaScript, Node.js, Open-Weight Vision Models, Ollama / Local ONNX.
-   - Generates compliant listings and SEO tags for Etsy, eBay, and Shopify at $0.00 marginal cost.
-3. **[TouchGrass](https://github.com/Srijanhub/TouchGrass)** · Weather & Nearby Outing Activity Finder
+   - *Tech*: Node.js, Express, Ollama, Llama 3.2 Vision, Qwen2-VL, Local ONNX, Apple Silicon GPU acceleration.
+   - Generates compliant listings and SEO tags for Etsy, eBay, and Shopify in <30s at $0.00 marginal cost; published on [DEV.to](https://dev.to/srijan_halder_7d1097cfad9/listingforge-5600).
+3. **ScamShield India** · Privacy-First Multilingual Fraud Detection PWA
+   - *Tech*: Next.js, FastAPI, IndicBERT v2, ONNX Runtime (CPU), LightGBM, PostgreSQL, Docker, jsQR.
+   - Real-time digital fraud detection (UPI scams, phishing URLs, QR tampering) with spoken voice warnings in 5 Indian languages (Hindi, Bengali, Marathi, Kannada, English) aligned with India's DPDP Act 2023.
+4. **[TouchGrass](https://github.com/Srijanhub/TouchGrass)** · Weather & Nearby Outing Activity Finder
    - *Tech*: Semantic HTML5, Vanilla JavaScript, OpenStreetMap Overpass API, Open-Meteo, Leaflet.js.
    - Zero-key, zero-dependency static web app that respects complete browser privacy.
-4. **[MoneyM8 (mywallet)](https://github.com/Srijanhub/mywallet)** · Mobile-First Offline Expense Tracker PWA
+5. **[MoneyM8 (mywallet)](https://github.com/Srijanhub/mywallet)** · Mobile-First Offline Expense Tracker PWA
    - *Tech*: HTML5 PWA Manifest, CSS Variables, Service Worker, Local Storage.
    - Fast, private expense logging and categorical analytics.
+
+---
+
+## 🌍 Tier-1 Global Open-Source Contributions
+
+- **[Python Software Foundation (`psf/pyperf`)](https://github.com/psf/pyperf/pull/128)**: Contributed JIT benchmark runner support for CPython 3.13+, adding `--jit`/`--no-jit` CLI flags, `has_jit` API in Runner, and deterministic subprocess testing ([PR #128](https://github.com/psf/pyperf/pull/128)).
+- **[Apache ShardingSphere (`apache/shardingsphere`)](https://github.com/apache/shardingsphere/issues/40421)**: Diagnosed and resolved a Firebird Proxy SQL parsing defect in Java, enabling prepared statement parameter resolution inside complex SQL expressions ([Issue #40421](https://github.com/apache/shardingsphere/issues/40421)).
+- **[Django Project (`django/djangoproject.com`)](https://github.com/django/djangoproject.com/pull/2930)**: Refactored documentation code-copy component for internationalization and WAI-ARIA accessibility compliance with `aria-live="polite"` feedback ([PR #2930](https://github.com/django/djangoproject.com/pull/2930)).
+- **[Jenkins CI (`jenkinsci/build-pipeline-plugin`)](https://issues.jenkins.io/browse/JENKINS-74054)**: Hardened Content Security Policy (CSP) compliance by extracting inline script blocks to isolated modules ([JENKINS-74054](https://issues.jenkins.io/browse/JENKINS-74054)).
 
 ---
 

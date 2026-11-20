@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Srijan Halder</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #334155;
+      padding: 40px 20px;
+      line-height: 1.5;
+    }
+    .resume-wrapper {
+      max-width: 850px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 48px 56px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    .print-bar {
+      max-width: 850px;
+      margin: 0 auto 16px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .back-link, .print-btn {
+      color: #f8fafc;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      background: #4f46e5;
+      padding: 8px 16px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .back-link { background: #334155; }
+    .header h1 {
+      font-size: 2rem;
+      color: #0f172a;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+    .contact-sub {
+      font-size: 0.85rem;
+      color: #475569;
+      margin-bottom: 6px;
+    }
+    .links-sub a {
+      color: #4f46e5;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.85rem;
+    }
+    .links-sub a:hover { text-decoration: underline; }
+    hr {
+      border: none;
+      border-top: 1.5px solid #e2e8f0;
+      margin: 16px 0 20px 0;
+    }
+    .section-title {
+      font-size: 0.95rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+      color: #1e1b4b;
+      border-bottom: 1.5px solid #c7d2fe;
+      padding-bottom: 4px;
+      margin: 20px 0 12px 0;
+      text-transform: uppercase;
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+    .item-title {
+      font-size: 0.98rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .item-meta {
+      font-size: 0.85rem;
+      color: #64748b;
+      font-weight: 500;
+    }
+    .item-sub {
+      font-size: 0.88rem;
+      font-style: italic;
+      color: #4338ca;
+      margin-bottom: 6px;
+    }
+    ul {
+      margin-left: 18px;
+      margin-bottom: 14px;
+    }
+    li {
+      font-size: 0.875rem;
+      color: #334155;
+      margin-bottom: 4px;
+      line-height: 1.5;
+    }
+    li strong { color: #0f172a; }
+    .skill-category {
+      font-size: 0.88rem;
+      margin-bottom: 6px;
+      color: #334155;
+    }
+    .skill-category strong { color: #0f172a; }
+    @media print {
+      body { background: transparent; padding: 0; }
+      .resume-wrapper { box-shadow: none; padding: 0; }
+      .print-bar { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <a href="index.html" class="back-link">← Back to Portfolio</a>
+    <button onclick="window.print()" class="print-btn">🖨️ Print / Save as PDF</button>
+  </div>
+
+  <div class="resume-wrapper">
+    <div class="header">
+      <h1>Srijan Halder</h1>
+      <p class="contact-sub"><strong>Bengaluru, Karnataka, India</strong> • <strong>+91 79807 41397</strong> • <strong>onlinesrijanhalder@gmail.com</strong></p>
+      <p class="links-sub">
+        <a href="https://github.com/Srijanhub" target="_blank">github.com/Srijanhub</a> • 
+        <a href="https://linkedin.com/in/srijan-halder-873537428" target="_blank">linkedin.com/in/srijan-halder-873537428</a> • 
+        <a href="https://dev.to/srijan_halder_7d1097cfad9" target="_blank">dev.to/srijan_halder_7d1097cfad9</a>
+      </p>
+    </div>
+
+    <hr>
+
+    <h2 class="section-title">Education</h2>
+    <div class="item-header">
+      <span class="item-title">Bosscoder School of Technology (BST)</span>
+      <span class="item-meta">Bengaluru, Karnataka</span>
+    </div>
+    <div class="item-sub">Bachelor of Technology in Computer Science &amp; Artificial Intelligence (AI/ML) | Expected July 2030</div>
+    <ul>
+      <li><strong>Academic Standing:</strong> Top 100 ACE Batch (Fast-Track Technical Cohort) | 88% in Internal Technical Assessments</li>
+      <li><strong>Relevant Coursework:</strong> Data Structures &amp; Algorithms, Object-Oriented Programming (Java/Python), Database Management Systems, Discrete Mathematics, Computer Networks</li>
+    </ul>
+
+    <div class="item-header" style="margin-top: 10px;">
+      <span class="item-title">Starling International School &amp; PM SHRI Kendriya Vidyalaya No. 1</span>
+      <span class="item-meta">2024 – 2026</span>
+    </div>
+    <ul>
+      <li>CBSE Class XII (Science): 84% (2026) | CBSE Class X: 97% (2024) Distinction</li>
+    </ul>
+
+    <h2 class="section-title">Open-Source Contributions (Tier-1 Global Codebases)</h2>
+    
+    <div class="item-header">
+      <span class="item-title">Python Software Foundation (<code>psf/pyperf</code>)</span>
+      <span class="item-meta"><a href="https://github.com/psf/pyperf/pull/128" target="_blank" style="color:#4f46e5; text-decoration:none; font-weight:600;">PR #128 ↗</a></span>
+    </div>
+    <div class="item-sub">Active Contributor — CPython 3.13+ JIT Benchmark Runner</div>
+    <ul>
+      <li>Implemented JIT benchmark runner support for CPython 3.13+, adding <code>--jit</code> / <code>--no-jit</code> CLI flags, <code>has_jit</code> API in <code>Runner</code>, and environment variable detection.</li>
+      <li>Engineered worker subprocess flag propagation and authored test suites ensuring deterministic benchmarking across JIT runtimes.</li>
+    </ul>
+
+    <div class="item-header">
+      <span class="item-title">Apache ShardingSphere (<code>apache/shardingsphere</code>)</span>
+      <span class="item-meta"><a href="https://github.com/apache/shardingsphere/issues/40421" target="_blank" style="color:#4f46e5; text-decoration:none; font-weight:600;">Issue #40421 ↗</a></span>
+    </div>
+    <div class="item-sub">Active Contributor — Distributed SQL &amp; Database Proxy</div>
+    <ul>
+      <li>Diagnosed and patched a Firebird Proxy SQL parsing defect in Java, enabling prepared statement parameter resolution inside complex SQL expressions without execution degradation.</li>
+    </ul>
+
+    <div class="item-header">
+      <span class="item-title">Django Project (<code>django/djangoproject.com</code>)</span>
+      <span class="item-meta"><a href="https://github.com/django/djangoproject.com/pull/2930" target="_blank" style="color:#4f46e5; text-decoration:none; font-weight:600;">PR #2930 ↗</a></span>
+    </div>
+    <div class="item-sub">Active Contributor — Internationalization &amp; Accessibility</div>
+    <ul>
+      <li>Refactored documentation code-copy component for i18n and WAI-ARIA accessibility compliance, adding <code>aria-live="polite"</code> feedback and localized data attributes with unit tests.</li>
+    </ul>
+
+    <div class="item-header">
+      <span class="item-title">Jenkins CI (<code>jenkinsci/build-pipeline-plugin</code> &amp; <code>jenkins-multijob-plugin</code>)</span>
+      <span class="item-meta"><a href="https://issues.jenkins.io/browse/JENKINS-74054" target="_blank" style="color:#4f46e5; text-decoration:none; font-weight:600;">JENKINS-74054 ↗</a></span>
+    </div>
+    <div class="item-sub">Merged Contributor — CI/CD Pipeline Plugins</div>
+    <ul>
+      <li>Hardened Content Security Policy (CSP) compliance by extracting inline script blocks to isolated modules in <code>build-pipeline-plugin</code> (merged). Fixed UI table header rendering in <code>jenkins-multijob-plugin</code>.</li>
+    </ul>
+
+    <h2 class="section-title">Featured Systems &amp; Projects</h2>
+
+    <div class="item-header">
+      <span class="item-title">Mandate — Autonomous AI Agent Spending Firewall for PayPal</span>
+      <span class="item-meta">Python, FastAPI, PostgreSQL, PayPal Orders v2</span>
+    </div>
+    <ul>
+      <li>Engineered a deterministic, cryptographically auditable spending firewall sitting between autonomous shopping agents and PayPal Orders v2 APIs to enforce human spending constraints.</li>
+      <li>Architected isolated core state engine (<code>mandate_core</code>) with C1–C8 policy checkpoints, SHA-256 hash-chained audit ledger, and canonical Intent Receipts.</li>
+      <li>Built pre-LLM HTML/CSS prompt-injection sanitization, multi-tenant isolation (<code>usr_*</code>), Google OAuth + SMS OTP auth, and verified defense across a 13-scenario Red-Team Demo Lab (R1–R13).</li>
+    </ul>
+
+    <div class="item-header">
+      <span class="item-title">ListingForge — Open-Weight AI E-Commerce Listing Studio</span>
+      <span class="item-meta">Node.js, Express, Ollama, Llama 3.2 Vision, Qwen2-VL</span>
+    </div>
+    <ul>
+      <li>Built a local-first studio turning product photos into platform-compliant listings for Etsy, eBay, Shopify, and Poshmark in &lt;30s at zero inference cost.</li>
+      <li>Accelerated multi-modal local vision inference (Llama 3.2 Vision, Qwen2-VL) on Apple Silicon GPU/MPS via Ollama with Hugging Face router failover.</li>
+      <li>Implemented automated marketplace SEO auditor (Etsy 13-tag limit, eBay 80-char cutoff), profit margin/fee calculator, RFC-4180 CSV export pipeline, and a 63-point test suite; reduced seller listing time from 4 hours to 35 minutes.</li>
+    </ul>
+
+    <div class="item-header">
+      <span class="item-title">ScamShield India — Privacy-First Multilingual Fraud Detection PWA</span>
+      <span class="item-meta">Next.js, FastAPI, IndicBERT v2, ONNX Runtime, LightGBM</span>
+    </div>
+    <ul>
+      <li>Developed an accessible Progressive Web App detecting digital fraud (UPI scams, phishing URLs, QR tampering) with voice warnings in 5 Indian languages (Hindi, Bengali, Marathi, Kannada, English).</li>
+      <li>Deployed fine-tuned IndicBERT v2 on CPU via ONNX Runtime combined with LightGBM lexical classifiers and live threat feeds (URLhaus, OpenPhish) to eliminate cloud API costs.</li>
+      <li>Designed a zero-retention privacy architecture aligned with India's DPDP Act 2023 with client-side in-browser QR scanning (jsQR).</li>
+    </ul>
+
+    <h2 class="section-title">Technical Skills</h2>
+    <p class="skill-category"><strong>Languages:</strong> Python, Java, JavaScript (ES6+), TypeScript, SQL, HTML5, CSS3</p>
+    <p class="skill-category"><strong>Backend &amp; Systems:</strong> FastAPI, Node.js, Express, Asyncpg, SQLAlchemy, PostgreSQL, SQLite, RESTful APIs, Webhooks, Docker</p>
+    <p class="skill-category"><strong>AI/ML &amp; Edge Inference:</strong> Ollama, ONNX Runtime, IndicBERT v2, Llama 3.2 Vision, Qwen2-VL, LightGBM, Hugging Face, Wav2Vec2</p>
+    <p class="skill-category"><strong>Developer Tools &amp; Security:</strong> Git, GitHub, Linux/macOS, WAI-ARIA Accessibility, Content Security Policy (CSP), Threat Modeling, Pytest, Jest</p>
+
+    <h2 class="section-title">Leadership &amp; Campus Initiatives</h2>
+    <ul>
+      <li><strong>Club Lead</strong>, The Voice Club — Bosscoder School of Technology: Spearheading campus technical speaker sessions, workshops, and industry executive outreach.</li>
+      <li><strong>Independent STEM Tutor</strong> (2024–Present): Built and manage an independent tutoring practice teaching Mathematics and Computer Science for Classes 6–10.</li>
+    </ul>
+  </div>
+
+</body>
+</html>
